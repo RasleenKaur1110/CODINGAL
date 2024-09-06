@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>REAL TIME VALIDATION USING</title>
+    </head>
+    <body>
+        <h1>REAL TIME VALIDATION USING</h1>
+        <hr>
+        <form id="loginForm" onsubmit="validate(event)">
+            <fieldset>
+                <div>
+                    <label for="email">EMAIL<label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div>
+                    <label for="password">PASSWORD</label>
+                    <input type="password" id="password" name="password" minlength="8">
+                </div>
+                <div>
+                    <label for="age">AGE</label>
+                    <input type="number" id="age" min="12" max="60">
+                </div>
+            </fieldset>
+        </form>
+        <div id="message"></div>
+        <script src="form.js"></script>
+    </body>
+</html>
