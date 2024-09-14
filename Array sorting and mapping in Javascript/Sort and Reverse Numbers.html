@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sort and Reverse Numbers</title>
+    </head>
+    <body>
+        <h2>Array Sort in Javascript</h2>
+        <p>Click the buttons to sort the array in ascending or descending order</p>
+        <button onclick="ascending()">ASCENDING ORDER</button>
+        <button onclick="descending()">DESCENDING ORDER</button>
+        <p id="result"></p>
+        <script>
+            var points = [11, 15, 31, 5, 24, 8, 7, 2];
+            document.getElementById("result").innerHTML = points;
+            function ascending(){
+                points.sort(function(a,b){return a-b});
+                document.getElementById("result").innerHTML = points;
+            }
+            function descending(){
+                points.sort(function(a,b){return b-a});
+                document.getElementById("result").innerHTML = points;
+            }
+        </script>
+    </body>
+</html>

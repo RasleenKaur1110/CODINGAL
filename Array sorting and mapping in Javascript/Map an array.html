@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mapping an array</title>
+    </head>
+    <body>
+        <p>Multiplying the numbers by 10</p>
+        <p id = "product"></p>
+        <script>
+            var numbers = [11, 15, 7, 8, 2]
+            function myFunction(num){
+                return num*10;
+            }
+            var newarray = numbers.map(myFunction);
+            document.getElementById("product").innerHTML = newarray;
+        </script>
+    </body>
+</html>
