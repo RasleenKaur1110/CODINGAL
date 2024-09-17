@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Handling Errors in Javascript</title>
+    </head>
+    <body>
+        <h2>Error Handling and Arrow Function in Javascript</h2>
+        <p id = "result"></p>
+
+        <script>
+            product = (a,b) => a*b;
+            try{
+                document.getElementById("result").innerHTML = a;
+            }
+            catch(err){
+                document.getElementById("result").innerHTML = err.message
+            }
+        </script>
+    </body>
+</html>
