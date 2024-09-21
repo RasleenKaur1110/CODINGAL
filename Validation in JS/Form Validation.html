@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Validation</title>
+    </head>
+    <body>
+        <form name="form" onsubmit="validateForm()">
+            Name: <input type="text" name="name">
+            <input type = "submit" value="submit">
+            <p id = "message"></p>
+        </form>
+
+        <script>
+            function validateForm(){
+                var a = document.forms["form"]["name"].value;
+                if(a == ""){
+                    alert("Name must be filled out");
+                    return false;
+                }
+                else{
+                    document.getElementById("message").innerHTML = "Hello " + a;
+                }
+            }
+        </script>
+    </body>
+
+</html>
