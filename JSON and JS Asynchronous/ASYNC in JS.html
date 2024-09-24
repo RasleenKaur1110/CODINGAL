@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ASYNC in JS</title>
+    </head>
+    <body>
+        <h2>Javascript ASYNC</h2>
+        <h1 id="result"></h1>
+
+        <script>
+            async function product(a, b){
+                let response = await a*b;
+                display(response);
+            }
+            function display(some){
+                    document.getElementById("result").innerHTML = some;
+            }
+            product(11, 15);
+        </script>
+    </body>
+</html>
