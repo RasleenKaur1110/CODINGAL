@@ -1,0 +1,44 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #252525;
+    font-family: "Baloo Tamma 2", cursive, sans-serif;
+}
+
+.m-heading {
+    font-family: "Roboto Slab", serif, Georgia, Times, "Times New Roman";
+}
+
+.text-white {
+    color: white;
+}
+
+.main-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("https://miro.medium.com/v2/resize:fit:1400/0*7VyEZgzwUhQMeBqb1");
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #252525;
+}
+
+.main_row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.main_row h1 {
+    font-size: 5rem;
+}
+
+.main_row img {
+    max-height: 100vh;
+    max-width: 100%;
+    width: auto;
+}
