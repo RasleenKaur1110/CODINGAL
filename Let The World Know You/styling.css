@@ -1,0 +1,35 @@
+body {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.media_link {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s, color 0.3s;
+    text-decoration: none;
+    color: #fff;
+}
+
+.media_link:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+.email_link {
+    background-color: #ffcc00;
+    color: #000;
+}
+
+.email_link:hover {
+    background-color: #ffcc00;
+    color: #000;
+}
+
+.text-white, .text-warning {
+    text-decoration: none;
+}
+
+#social-media {
+    padding: 50px 0;
+}
