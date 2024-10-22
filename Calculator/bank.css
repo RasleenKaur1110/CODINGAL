@@ -1,16 +1,6 @@
-body{
+body {
     text-align: center;
     background-color: hwb(180 80% 0%);
-}
-
-.text1 {
-    color: red;
-    text-decoration: overline;
-}
-
-.text2 {
-    color: #71ffb0;
-    text-decoration: line-through;
 }
 
 .text3 {
@@ -18,15 +8,24 @@ body{
     text-decoration: underline;
 }
 
-.text4 {
-    color: rgba(0, 0, 0, 0.4);
-    text-decoration: underline overline;
+.container {
+    margin-top: 50px;
 }
 
-.p1 {
-    font-family: 'Times New Roman', Times, serif;
+input {
+    margin: 10px;
+    padding: 5px;
+    font-size: 16px;
 }
 
-.p2 {
-    font-family: Arial, Helvetica, sans-serif;
+button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
 }
+
+p {
+    font-size: 18px;
+}
+
