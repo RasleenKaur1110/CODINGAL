@@ -7,4 +7,3 @@ y = x
 
 print("Value of x after swapping is: ", x)
 print("Value of y after swapping is: ", y)
-

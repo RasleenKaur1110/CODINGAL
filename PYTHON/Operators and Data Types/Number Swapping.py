@@ -5,4 +5,3 @@ z = 1
 x, y, z = sorted([x, y, z])
 
 print("ASCENDING ORDER:", x, y, z)
-
