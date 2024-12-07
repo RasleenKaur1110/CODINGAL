@@ -1,0 +1,5 @@
+File in write mode Hi, I am Rasleen. I am 13 years old.
+ File in append mode Hi, I am Rasleen. I am 13 years old.Hey everyone!
+Welcome to Codingal.
+Coding is my favorite hobby.
+Codingal.
