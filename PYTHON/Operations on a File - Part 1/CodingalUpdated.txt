@@ -1,0 +1,3 @@
+File in write mode Hi, I am Rasleen. I am 13 years old.
+Welcome to Codingal.
+Codingal.
